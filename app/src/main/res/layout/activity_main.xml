@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ndambuki.birthdaycard.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/birthday"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/app_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dear"
+        android:textSize="36sp"
+        android:textStyle="italic|bold"
+        android:textColor="#FF3D00"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/from"
+        android:textSize="36sp"
+        android:textStyle="italic|bold"
+        android:textColor="#00B0FF"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"/>
+
+</RelativeLayout>
